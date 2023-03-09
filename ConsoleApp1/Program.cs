@@ -10,13 +10,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            // int [] array = new int [] {    };
-            int[] array = { 37, 0, 50, 46, 34, 46, 0, 13 };
-            foreach (int element in array)
+                int[] array = new int[6];
+                for (int i = 0; i < 6; i++)
             {
-                Console.Write($"{element}\t");
+                Console.Write($"array [{i}]");
+                array[i] = int.Parse(Console.ReadLine());
+        }
+                int[] array = new int[6];
+                for (int i=0; i<6; i++)
+            {
+                Console.WriteLine($"array[{i}]={array[i]}");
+
             }
-            Console.ReadLine();
+                Console.Read();
         }
 
     }

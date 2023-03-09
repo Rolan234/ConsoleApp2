@@ -16,11 +16,12 @@ namespace ConsoleApp1
                 Console.Write($"array [{i}]");
                 array[i] = int.Parse(Console.ReadLine());
             }
-            int[] array = new int[6];
             for (int i=0; i<6; i++)
             {
                 Console.WriteLine($"array[{i}]={array[i]}");
+            
             }
+            Console.Read();
         }
 
     }
